@@ -1,0 +1,12 @@
+require 'date'
+
+require 'filterkit/arel_ext'
+require 'filterkit/arel_pretty'
+require 'filterkit/type_map'
+require 'filterkit/types'
+require 'filterkit/predicate'
+require 'filterkit/predicates'
+require 'filterkit/property'
+require 'filterkit/ordering'
+require 'filterkit/filter'
+require 'filterkit/active_record'
