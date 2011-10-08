@@ -6,14 +6,17 @@ require 'filterkit/version'
  
 Gem::Specification.new do |s|
   s.name        = "filterkit"
-  s.version     = FilterKit::VERSION
+  s.version     = Filterkit::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Ewout van Troostenberghe"]
-  s.email       = ["<todo>"]
+  s.email       = ["e@ewout.name"]
   s.homepage    = "https://github.com/devwout/filterkit"
   s.summary     = "<todo>"
   s.description = "<todo>"
  
+  s.add_dependency "activerecord", "~>2.3.5"
+  s.add_dependency "arel-compat", "~>0.4.0"
+
   s.add_development_dependency "rspec"
  
   s.files        = Dir.glob("{bin,lib}/**/*")
