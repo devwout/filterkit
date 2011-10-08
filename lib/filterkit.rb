@@ -1,5 +1,6 @@
 require 'date'
 
+require 'filterkit/version'
 require 'filterkit/arel_ext'
 require 'filterkit/arel_pretty'
 require 'filterkit/type_map'
